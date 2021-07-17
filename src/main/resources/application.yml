@@ -21,6 +21,6 @@ eureka:
     fetch-registry: false
     # 设置与Eureka Server交互的地址查询服务和注册服务都需要依赖这个地址
     service-url:
-      defaultZone: http://localhost:8761/eureka
+      defaultZone: http://localhost:8762/eureka
   logging:
     config: classpath:logback-spring.xml
